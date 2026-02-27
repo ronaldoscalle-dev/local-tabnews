@@ -49,8 +49,4 @@ const styles = {
   },
 };
 
-function teste() {
-  console.log("testeeee");
-}
-
 export default Home;
