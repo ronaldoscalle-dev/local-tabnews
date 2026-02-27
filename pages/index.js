@@ -2,17 +2,13 @@ function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>
-          🚀 Desafio Concluído!
-        </h1>
+        <h1 style={styles.title}>🚀 Desafio Concluído!</h1>
         <p style={styles.text}>
           Filipe e equipe do curso.dev,
           <br />
           minha gratidão por essa experiência incrível.
         </p>
-        <p style={styles.highlight}>
-          Cada aula foi uma virada de chave! ⚡
-        </p>
+        <p style={styles.highlight}>Cada aula foi uma virada de chave! ⚡</p>
       </div>
     </div>
   );
@@ -52,5 +48,9 @@ const styles = {
     color: "#00ffd5",
   },
 };
+
+function teste() {
+  console.log("testeeee");
+}
 
 export default Home;
