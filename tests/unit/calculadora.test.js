@@ -1,4 +1,4 @@
-const calculadora = require("../models/calculadora");
+const calculadora = require("../../models/calculadora");
 
 test("somar 2 + 2 deveria retornar 4", () => {
   const resultado = calculadora.somar(2, 2);
@@ -17,11 +17,3 @@ test("somar 'banana' + 100 deveria retornar 'Erro'", () => {
   expect(resultado).toBe("Erro");
   // console.log(resultado);
 });
-
-// test("teste", () => {
-//   console.log("e agora");
-// });
-
-// test("testando outra condição do meu sistema", () => {
-//   console.log("outro teste");
-// });
